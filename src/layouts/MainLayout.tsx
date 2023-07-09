@@ -9,7 +9,7 @@ const MainLayout = () => {
       className='
         main-layout
         flex flex-col justify-between 
-        #h-full
+        h-full
       '
     >
       <Header/>

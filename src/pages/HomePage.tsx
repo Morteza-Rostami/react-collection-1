@@ -7,6 +7,8 @@ const HomePage = () => {
       className='
       p-4
       bg-indigo-100
+      h-full
+
       '
     >
       <nav
@@ -14,7 +16,7 @@ const HomePage = () => {
           flex flex-col gap-4
         '
       >
-        <Link
+        {/* <Link
           className='
             underline
             text-lg
@@ -23,6 +25,17 @@ const HomePage = () => {
           to={'/comments-section'}
         >
           comments-section
+        </Link> */}
+
+        <Link
+          className='
+            underline
+            text-lg
+            hover:text-blue-400
+          '
+          to={'/stop-watch'}
+        >
+          stop-watch
         </Link>
       </nav>
     </div>

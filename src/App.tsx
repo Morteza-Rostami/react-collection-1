@@ -4,6 +4,7 @@ import MainLayout from './layouts/MainLayout';
 import HomePage from './pages/HomePage';
 //import useRunOnce from './hooks/useRunOnce';
 import CommentsPage from './pages/CommentsPage';
+import StopWatchPage from './pages/StopWatchPage';
 
 function App() {
 
@@ -31,6 +32,13 @@ function App() {
             path='/comments-section'
             element={<CommentsPage />}
           >
+          </Route>
+
+          <Route
+            path='/stop-watch'
+            element={<StopWatchPage/>}
+          >
+            stop-watch
           </Route>
         </Route>
       </Routes>

@@ -1,6 +1,6 @@
 {
+  "name": "react-projects-collection",
   "homepage": "https://morteza-rostami.github.io/react-collection-1",
-  "name": "client",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

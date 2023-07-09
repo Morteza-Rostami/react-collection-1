@@ -11,7 +11,9 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
     <ChakraProvider>
-      <BrowserRouter>
+      <BrowserRouter
+        basename={process.env.PUBLIC_URL}
+      >
         <App />
       </BrowserRouter>
     </ChakraProvider>
